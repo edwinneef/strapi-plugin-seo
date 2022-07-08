@@ -38,7 +38,7 @@ const TabContent = ({ item, keywords }) => {
         <MetaChecks item={item.title} max={60} label="title" />
         <MetaChecks
           item={item.description}
-          max={item.socialNetwork === 'Facebook' ? 65 : 125}
+          max={item.socialNetwork === 'Facebook' ? 500 : 500}
           label="description"
         />
         {keywords && (
