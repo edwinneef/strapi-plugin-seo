@@ -31,8 +31,8 @@ const FacebookPreview = ({ title, description, image }) => {
                   : title}
               </div>
               <div className="snippet-fb-description snip-div">
-                {description && description.length > 65
-                  ? `${description.substring(0, 62)}...`
+                {description && description.length > 500
+                  ? `${description.substring(0, 492)}...`
                   : description}
               </div>
             </div>
