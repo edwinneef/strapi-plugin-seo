@@ -20,7 +20,7 @@ const MetaChecks = ({ item, max, label, minLimit = false }) => {
               `colors.${
                 item.length >= max ||
                 (label === 'title' && item.length === 0) ||
-                (minLimit && label === 'description' && item.length <= 50)
+                (minLimit && label === 'description' && item.length <= 500)
                   ? `danger`
                   : `success`
               }600`
